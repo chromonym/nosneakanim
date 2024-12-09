@@ -3,20 +3,27 @@
 	"id": "nosneakanim",
 	"version": "${version}",
 	"name": "No Sneak Animation",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Disables the crouch animation. Based on Sneak Tweaks, which has not (yet) been updated to 1.21.",
 	"authors": [
-		"Me!"
+		"Chromonym"
+	],
+	"contributors": [
+		"Swizik"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/nosneakanim",
+		"sources": "https://github.com/chromonym/nosneakanim",
+		"issues": "https://github.com/chromonym/nosneakanim/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "Apache-2.0",
 	"icon": "assets/nosneakanim/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
+		"client": [
 			"io.github.chromonym.nosneakanim.NoSneakAnimation"
+		],
+		"modmenu": [
+			"io.github.chromonym.nosneakanim.NoSneakAnimModMenu"
 		]
 	},
 	"mixins": [
@@ -24,11 +31,12 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21.3",
+		"minecraft": ">=1.21",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"cloth-config": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"modmenu": "*"
 	}
 }
