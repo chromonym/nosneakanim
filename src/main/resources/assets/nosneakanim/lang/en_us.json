@@ -1,4 +1,8 @@
 {
+    "text.autoconfig.nosneakanim.title": "No Sneaking Animation",
     "text.autoconfig.nosneakanim.option.disableSneak": "Disable Sneak Animation",
-    "text.autoconfig.nosneakanim.title": "No Sneaking Animation"
+    "text.autoconfig.nosneakanim.option.sneakingEyeHeightType": "Sneak Height Preset",
+    "text.autoconfig.nosneakanim.option.customSneakingEyeHeight": "Custom Sneaking Height",
+    "text.autoconfig.nosneakanim.option.customSneakingEyeHeight.@Tooltip": "Only works if the above option is CUSTOM",
+    "text.autoconfig.nosneakanim.option.modifyThirdPersonHeight": "Modify Third-Person Sneaking Height"
 }
