@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "nosneakanim",
 	"version": "${version}",
-	"name": "No Sneak Animation",
+	"name": "No Sneaking Animation",
 	"description": "Disables the crouch animation. Based on Sneak Tweaks, which has not (yet) been updated to 1.21.",
 	"authors": [
 		"Chromonym"
